@@ -1,0 +1,79 @@
+body {
+    
+    background-image: url("cat.jpg");
+}
+.bodyy{
+    display: flex;    
+}
+.about-me{
+    display: block;
+    border-radius: 1cm;
+    border-style: solid;
+    border-color: black;
+    background-color:rgb(46, 68, 87);
+    float: left;
+    flex: 2;    
+    width: 900px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+.about-me p{
+    display: block;
+    text-align: center;
+}
+
+.aps{
+    
+}
+
+nav{
+    flex-shrink: 1;        
+    padding-top: 40px;
+    border-radius: 1cm;
+    border-style: solid;
+    background-image: url("WallpaperDog-20536905.jpg");
+    width: 200px;    
+    text-decoration: none;
+    margin-top: 50px;
+    height: 700px;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10cm;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(19, 59, 59);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+#header{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 80px;
+}
+
+.header-text{    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: normal;
+    color: beige;
+    font-size: 60px;
+}
