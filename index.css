@@ -11,9 +11,9 @@ body {
     border-style: solid;
     border-color: black;
     background-color:rgb(46, 68, 87);
-    float: left;
+    
     flex: 2;    
-    width: 900px;
+    width: 1500px;
     margin-left: 10px;
     margin-right: auto;
     margin-top: 50px;
@@ -30,8 +30,19 @@ body {
     text-align: center;
 }
 
+.try{
+    flex: 2;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
 .aps{
+    text-align: center;  
     
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
 }
 
 nav{
