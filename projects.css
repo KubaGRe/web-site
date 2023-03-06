@@ -10,7 +10,14 @@ body {
     display: flex;  
     
 }
-.about-me{
+
+.main{
+    flex: 2;
+    margin-right: auto;
+    
+}
+
+.my-projects{
     display: block;
     border-radius: 1cm;
     border-style: solid;
@@ -19,8 +26,8 @@ body {
     
     flex: 2;    
     
-    margin-left: 20px;
-    margin-right: auto;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 50px;
     margin-bottom: auto;
     font-size: 120%;
@@ -30,17 +37,12 @@ body {
     text-align: center;
     color: aliceblue;
 }
-.about-me p{
+
+.my-projects p{
     display: block;
     text-align: center;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.main{
-    flex: 2;
     margin-right: auto;
-    
+    margin-left: auto;
 }
 
 .aps{
