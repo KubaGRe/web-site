@@ -1,6 +1,8 @@
 body {
-    
+       
     background-image: url("cat.jpg");
+    position:fixed; 
+    background-size: cover;
 }
 .bodyy{
     display: flex;    
