@@ -1,14 +1,14 @@
 body {
        
     background-image: url("cat.jpg");
-    position:fixed; 
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .bodyy{
     display: flex;  
-    margin-right: auto;  
+    
 }
 .about-me{
     display: block;
@@ -38,14 +38,14 @@ body {
 .try{
     flex: 2;
     margin-right: auto;
-    margin-bottom: auto;
+    
 }
 
 .aps{
     text-align: center;  
     
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 10px;
     margin-top: 50px;
     margin-bottom: auto;
 }
